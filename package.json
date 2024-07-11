@@ -3,18 +3,20 @@
   "name": "japanese-number-converter",
   "title": "Japanese Number Converter",
   "description": "Converts Japanese Kanji numeral <=> number.",
-  "icon": "command-icon.png",
-  "author": "sideshowjack",
+  "icon": "extension_icon.png",
+  "author": "jack-mason",
   "categories": [
-    "Data"
+    "Data",
+    "Communication"
   ],
   "license": "MIT",
   "commands": [
     {
       "name": "index",
-      "title": "Convert Japanese Numbers",
+      "title": "Japanese Number Converter",
       "description": "Convert any Japanese Kanji numerals into numbers",
       "mode": "view",
+      "icon": "extension_icon.png",
       "arguments": [
         {
           "name": "jpNumber",
@@ -34,7 +36,7 @@
     "@types/node": "20.8.10",
     "@types/react": "18.2.27",
     "eslint": "^8.51.0",
-    "prettier": "^3.0.3",
+    "prettier": "^3.2.5",
     "typescript": "^5.2.2"
   },
   "scripts": {
